@@ -20,11 +20,11 @@ function BoatList(props) {
                     <p>motorvermogen: {props.boat.motorvermogen}</p>
                 </div>
                 <div className="video">
-                    <iframe allowFullScreen src={props.boat.media.youtube}></iframe>
+                    <iframe allowFullScreen src={props.boat.media.youtube} title={props.boat.id}></iframe>
                 </div>
             </div>
             <div className="weetjes">
-                <p>{props.boat.weetjes.w1}</p>
+                <p>{props.boat.weetjes.w1}</p> 
                 <p>{props.boat.weetjes.w2}</p>
             </div>
         </article>

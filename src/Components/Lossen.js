@@ -14,7 +14,7 @@ function Lossen() {
             <article className="lossen">
                 <img src={losgif} alt=""></img>
                 <div className="video">
-                    <iframe allowFullScreen src="https://www.youtube.com/embed/ud6QiHw7SU0"></iframe>
+                    <iframe allowFullScreen src="https://www.youtube.com/embed/ud6QiHw7SU0" title="lossen"></iframe>
                 </div>
                 {losComponents}                
             </article>            
