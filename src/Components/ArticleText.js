@@ -1,9 +1,9 @@
 import React from "react"
 
 function HomeText(props) {
-    const nameClass = `lakes ${props.class}`
+    const allClasses = `lakes ${props.class}`
     return (
-        <section className={nameClass}>
+        <section className={allClasses}>
             {props.tekst}
         </section>
     )
