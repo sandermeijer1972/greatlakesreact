@@ -41,13 +41,13 @@ const camData = [
         info: "De camera filmt vanaf het Dossin Museum op het Belle Isle in de Detroit River.",
         youtube: "https://www.youtube.com/embed/994mtws8RNw"
     },
-    {
-        id: 7,
-        plaats: "Superior, Wisconsin",
-        positie: "A",
-        info: "De camera filmt de in- en uitgang van Lake Superior naar de gecombineerde haven van Duluth en Superior vanaf de Wisconsin-kant.",
-        youtube: "https://www.youtube.com/embed/AuqMZmVH04c"
-    }
+    // {
+    //     id: 7,
+    //     plaats: "Superior, Wisconsin",
+    //     positie: "A",
+    //     info: "De camera filmt de in- en uitgang van Lake Superior naar de gecombineerde haven van Duluth en Superior vanaf de Wisconsin-kant.",
+    //     youtube: ""
+    // }
 ];
 
 export default camData 
